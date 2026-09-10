@@ -1,0 +1,64 @@
+Resource DLLs: Resources.dll, InfoCards.dll, MiscText.dll, NameResources.dll, EquipResources.dll, OfferBribeResources.dll, MiscTextInfo2.dll, sol.dll, respawnuniverse.dll, respawnbases.dll, news.dll, storyaddon.dll
+solar archetypes: 989
+factions: 86
+universe systems: 185
+universe bases: 451
+sectors: [('sector01', 106), ('sector02', 28), ('sector03', 31), ('sector04', 5), ('sector05', 10)]
+systems without sector layout: 7 ['CF01ts', 'CF99', 'sector01', 'sector02', 'sector03', 'sector04', 'sector05']
+sector systems not in universe.ini: 1 ['CF01tns']
+systems placed in multiple sectors: {'CF58': ['sector03']}
+parse failures: []
+object type counts: {'SUN': 317, 'NON_TARGETABLE': 5946, 'PLANET': 651, 'JUMP_GATE': 356, 'STATION': 330, 'DOCKING_RING': 79, 'TRADELANE_RING': 2543, 'SATELLITE': 4147, 'JUMP_HOLE': 300, 'WEAPONS_PLATFORM': 378, 'DESTROYABLE_DEPOT': 678, 'MISSION_SATELLITE': 982, 'AIRLOCK_GATE': 13}
+zone kinds: {'debris': 55, 'mine': 34, 'nebula': 346, 'ice': 607, 'asteroid': 347, 'gas': 79, 'lava': 25}
+top unknown archetypes: []
+zone flag counts:
+  0x00000000 (0) x10917: ['Zone_Li01_Manhattan_death', 'Zone_Li01_001_Planet_Li01_01_atmosphere_burn', 'Zone_Li01_001_Planet_Li01_01', 'Zone_Li01_002_Station_Li01_11', 'Zone_Li01_004_DockRing_Li01_01', 'Zone_Li01_011_Battleship_Li01_03']
+  0x00020000 (131072) x1192: ['Zone_Li01_005_Planet_Li01_02', 'Zone_Li01_Tradelane_5', 'Zone_Li01_to_Li05', 'Zone_Li01_Exclusion_Tradelane_001', 'Zone_Li01_Exclusion_Tradelane_002', 'Zone_Li01_Exclusion_Tradelane_003']
+  0x00008000 (32768) x308: ['Zone_Li01_Badlands_Nebula', 'Zone_Li01_Pittsburgh_Pirate_Base_Nebula', 'Zone_Li02_Tahoe_ice_crystal_cloud', 'Zone_Br03_Grasmere_ice_cloud', 'Zone_Br03_Keswick_ice_cloud', 'Zone_Br06_Islay_ice_cloud']
+  0x00000042 (66) x152: ['Zone_Br01_Devon_rock_asteroid_field', 'Zone_Br01_Somerset_rock_asteroid_field', 'Zone_Br01_Cornwall_rock_asteroid_field', 'Zone_Br01_Cumbria_rock_asteroid_field', 'Zone_Br03_Cardiff_rock_asteroid_field', 'Zone_Br03_Newcastle_rock_asteroid_field']
+  0x00010000 (65536) x145: ['ZONE_li02_tahoe_exclusion_1', 'ZONE_li02_tahoe_exclusion_2', 'ZONE_li02_tahoe_exclusion_3', 'ZONE_li02_tahoe_exclusion_4', 'ZONE_Li02_Tahoe_exclusion_5', 'ZONE_Li02_Tahoe_exclusion_6']
+  0x00000041 (65) x107: ['Zone_Br04_East_Leeds_asteroids', 'Zone_Br04_West_Leeds_smog_asteroids', 'ZONE_Br04_EastLeeds_asteroid_1', 'ZONE_Br04_EastLeeds_asteroid_2', 'ZONE_Br04_EastLeeds_asteroid_3', 'ZONE_Br04_WestLeeds_asteroid_1']
+  0x00000102 (258) x96: ['Zone_Br02_Birmingham_ice_asteroid_field', 'Zone_Br02_Sheffield_north_ice_asteroid_field', 'Zone_Br02_Sheffield_south_ice_asteroid_field', 'Zone_Br03_Grasmere_ice_asteroids', 'Zone_Br03_Keswick_ice_asteroids', 'Zone_Br06_Islay_ice_asteroids']
+  0x00030000 (196608) x54: ['Zone_Li01_012_Station_Li01_04', 'Zone_Li01_013_Station_Li01_05', 'Zone_Li01_Jumpgate_to_Iw03', 'Zone_Li01_Exclusion_depot', 'zone_Li02_Station_Li02_04', 'zone_Li02_exclusion_001']
+  0x00004052 (16466) x42: ['Zone_Br01_Cumbria_gas_001', 'Zone_Br01_Devon_gas_001', 'Zone_Br01_Somerset_gas_001', 'Zone_Br01_Somerset_gas_002', 'Zone_Br01_Cumbria_gas_002', 'Zone_Bw03_Fursten_gas']
+  0x00000082 (130) x27: ['Zone_Li01_Detroit_high_density_debris', 'Zone_Li04_Pequena_Negra_debris', 'Zone_Li04_Grande_Negra_debris', 'Zone_Br01_Southampton_debris_field', 'CF03_newfield_06', 'Zone_CF04_newfield_02']
+  0x00001020 (4128) x25: ['Zone_Li01_zone21', 'Zone_Rh04_minefield', 'Zone_Bw08_mines1', 'Zone_Bw08_mines2', 'Zone_Bw08_mines3', 'Zone_Ew03_northeast_minefield']
+  0x00000202 (514) x25: ['Zone_Rh05_West_lavafeld', 'Zone_Rh05_Kruger_lavafeld', 'Zone_Rh05_Schwefelwolke_asteroids', 'Zone_Bw03_Gubenfelde', 'Zone_Hi02_Gredos_asteroids', 'Zone_cf08_Gredos_asteroids']
+  0x0000C000 (49152) x20: ['CF104_radzone_01', 'CF104_radzone_02', 'CF104_radzone_03', 'CF104_radzone_04', 'CF104_radzone_05', 'CF104_radzone_06']
+  0x00000081 (129) x19: ['Zone_Li01_Detroit_debris_001', 'Zone_Li01_Detroit_storage_area', 'Zone_Li04_North_Dallas_debris_field', 'Zone_Rh01_Ruhr_debris_field', 'Zone_Bw05_yanagi_pocket_debris_field', 'Zone_Hi01_Hispania_debris_field']
+  0x00000801 (2049) x19: ['zone_Li02_Tahoe_ice_crystal_field', 'zone_cf14_Tahoe_ice_crystal_field', 'Zone_CF14_newfield_01', 'Zone_CF14_newfield_09', 'Zone_CF14_newfield_10', 'Zone_CF14_newfield_11']
+  0x00000402 (1026) x19: ['Zone_Ew02_edge_asteroid', 'Zone_Ew04_Napo_asteroids', 'Zone_Ew04_Orinoco_asteroids', 'Zone_Ew04_Amarus_asteroids', 'Zone_Hi02_Malvada_asteroids', 'Zone_St03b_asteroids']
+  0x00000100 (256) x12: ['zone_Li02_Sierra_ice_asteroid_field', 'zone_Li02_Whitney_ice_asteroid_field', 'ZONE_Li02_whitney_density_1', 'Zone_Bw10_ice_crystals', 'ZONE_CF10_whitney_density_1', 'ZONE_cf14_whitney_density_1']
+  0x0000004A (74) x10: ['Zone_Br04_LD14_rock_asteroid_field', 'Zone_CF12_newfield_04', 'Zone_CF38_newfield_02', 'Zone_CF43_newfield_08', 'Zone_CF43_newfield_02', 'Zone_CF64_newfield_02']
+  0x00000080 (128) x7: ['Zone_Li01_Pittsburgh_debris_001', 'Zone_Li01_Jersey_debris_001', 'Zone_Li01_Pittsburgh_high_density_debris', 'Zone_Li04_South_Dallas_debris_field', 'Zone_Li04_East_Dallas_debris_field', 'Zone_Li04_West_Dallas_debris_field']
+  0x00000040 (64) x7: ['Zone_Li03_Cheyenne_field', 'Zone_Li03_Alamosa_field', 'Zone_Li03_Copperton_field', 'Zone_Li03_silverton_field', 'Zone_CF04_newfield_04', 'Zone_CF86_minefield']
+  0x00000052 (82) x7: ['Zone_Br05_Molly_gold_field', 'Zone_Br05_GSM_minedout_field', 'Zone_CF55_Molly_gold_field', 'Zone_CF55_GSM_minedout_field', 'Zone_CF39_newfield_01', 'Zone_CF46_newfield_07']
+  0x00000101 (257) x7: ['Zone_Bw09_Freeport6_ice_crystal_field', 'Zone_Ew01_Bermejo_ice_crystals', 'Zone_Ew01_Torres_ice_crystal_field', 'CF02_newfield_05', 'zone_CF10_Tahoe_ice_crystal_field', 'zone_CF85_Tahoe_ice_crystal_field']
+  0x00002008 (8200) x6: ['Zone_Li01_Badlands_Asteroids', 'Zone_Li01_Badlands_low_density_asteroids', 'CF03_newfield_05', 'CF71_newfield_05', 'CF75_newfield_05', 'Zone_CF100_newfield_07']
+  0x00001024 (4132) x6: ['Zone_Br02_Newgate_minefield', 'CF04_newfield_11', 'Zone_CF19_pinballdeck_01', 'Zone_CF36_newfield_01', 'CF72_newfield_11', 'Zone_CF72_newfield_01']
+  0x00008101 (33025) x5: ['Zone_Li05_nebula', 'Zone_CF06_nebula', 'Zone_CF40_artifacts', 'Zone_CF74_nebula', 'Zone_CF96_nebula']
+  0x00018000 (98304) x5: ['Zone_Ew02_01_exclusion', 'Zone_Ew02_Elysium_exclusion', 'Zone_Ew04_Vespus_exclusion', 'Zone_CF05_Elysium_exclusion', 'Zone_CF73_Elysium_exclusion']
+  0x00008402 (33794) x5: ['Zone_St01_edge_nebula', 'Zone_St02_lair_nebula', 'Zone_St02tk_lair_nebula', 'Zone_CF106_nebula_01', 'Zone_CF107_nebula_01']
+  0x00000044 (68) x4: ['Zone_Br04_Stokes_mineable_asteroid_field', 'Zone_CF70_newfield_01', 'Zone_CF70_newfield_02', 'Zone_CF71_newfield_01']
+  0x00004010 (16400) x4: ['Zone_Bw03_Guben_gas', 'Zone_Bw05_oxygen_pocket_001', 'Zone_Bw05_oxygen_pocket_002', 'Zone_Bw05_oxygen_pocket_003']
+  0x0000F530 (62768) x4: ['Zone_CF05_edge_nebula1', 'Zone_CF39_edge_nebula1', 'Zone_CF73_edge_nebula1', 'Zone_CF78_edge_nebula1']
+  0x00004112 (16658) x3: ['Zone_Bw09_oxygen_pocket3', 'Zone_Bw09_oxygen_pocket2', 'Zone_Bw09_oxygen_pocket1']
+  0x00000084 (132) x2: ['Zone_Li01_debris_practice_001', 'ZONE_Br01_Southampton_density_1']
+  0x00148020 (1343520) x2: ['Zone_Li04_Pequena_Negra', 'Zone_Li04_Grande_Negra']
+  0x00008008 (32776) x2: ['Zone_Br04_East_Leeds_smog_cloud', 'Zone_Br04_West_Leeds_smog_cloud']
+  0x00011020 (69664) x2: ['Zone_Ku04_Kansai_mine_field', 'Zone_CF56_mine_field1']
+  0x00000112 (274) x2: ['Zone_Bw02_minefield', 'Zone_CF32_minefield_01']
+  0x00010042 (65602) x1: ['Zone_Rh05_Leipzig_mining_area']
+  0x00000201 (513) x1: ['Zone_Bw04_Riemen_Von_Rohe']
+  0x00010082 (65666) x1: ['Zone_Bw05_yanagi_debris_field']
+  0x00001000 (4096) x1: ['Zone_CF04_newfield_01']
+  0x00004402 (17410) x1: ['Zone_cf05_edge_nebula_1']
+random jump objects: 4
+jump links: 352 (dangling: 0)
+dangling sample: []
+no-navmap systems: ['CF41', 'CF53', 'CF58', 'St02c', 'St03', 'St03b']
+fallback placement: CF01ts near Hi01
+special placement: CF99 at sector03 (14.5, 9.5)
+markets: 425 bases, 884 items, 883 with infocards
+systems parsed: 180
+sample Li01: objects=143 zones=414
