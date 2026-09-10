@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>自由枪骑兵 Crossfire 2.0.1 · 互动星系地图（单机版）</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app">
+  <div id="stage">
+    <canvas id="map"></canvas>
+
+    <div id="topbar">
+      <div id="crumbs"></div>
+      <label class="toggle" id="toggle-variants" title="显示任务阶段变体星系与剧情专用星系">
+        <input type="checkbox"> 剧情/变体星系
+      </label>
+      <label class="toggle on" id="toggle-labels">
+        <input type="checkbox" checked> 名称标签
+      </label>
+      <div id="search-box">
+        <input id="search" type="text" placeholder="搜索星系 / 基地…" autocomplete="off">
+        <div id="search-results"></div>
+      </div>
+    </div>
+
+    <div id="filters" class="filterbar"></div>
+
+    <div id="legend">
+      <span class="lg"><span class="line" style="border-color:#43d9ad"></span>跳跃门</span>
+      <span class="lg"><span class="line" style="border-color:#ff8a65;border-top-style:dashed"></span>跳跃洞</span>
+      <span class="lg"><span class="dot" style="background:#4fc3f7"></span>天狼星</span>
+      <span class="lg"><span class="dot" style="background:#ba68c8"></span>内核</span>
+      <span class="lg"><span class="dot" style="background:#ffb74d"></span>Altair</span>
+      <span class="lg"><span class="dot" style="background:#81c784"></span>Canis</span>
+      <span class="lg"><span class="dot" style="background:#ef5350"></span>Sol</span>
+      <span class="lg" style="color:#ffb74d">◯ 无导航图</span>
+    </div>
+
+    <div id="hint">拖动平移 · 滚轮缩放 · 单击选择 · 双击进入星系 · Esc 返回</div>
+    <div id="zoomctl">
+      <button id="z-in" title="放大">＋</button>
+      <button id="z-out" title="缩小">－</button>
+      <button id="z-fit" title="适应窗口">⛶</button>
+    </div>
+    <div id="status" style="display:none"></div>
+    <div id="tooltip"></div>
+
+    <div id="loading">
+      <div>正在载入星系数据…</div>
+    </div>
+  </div>
+
+  <aside id="panel" class="hidden">
+    <div id="panel-head">
+      <div>
+        <div id="panel-title"></div>
+        <div id="panel-sub"></div>
+      </div>
+      <button id="panel-close" title="关闭">✕</button>
+    </div>
+    <div id="panel-body"></div>
+  </aside>
+</div>
+
+<script src="data/ids.js"></script>
+<script src="data/universe.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
